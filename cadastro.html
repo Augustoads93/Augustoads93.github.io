@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <h1>Cadastre-se</h1>
+
+    <div>
+        <input type="text" name="nome" id="nome" placeholder="Nome"><br><br>
+        <input type="number" name="idade" id="idade" placeholder="Idade"><br><br><input type="txt" name="CPF" id="cpf" placeholder="CPF"><br><br>
+        <input type="text" name="cidade" id="cidade" placeholder="Cidade"><br><br>
+        <input type="email" name="email" id="email" placeholder="E-mail"><br><br>
+        <input type="password" name="senha" id="senha" placeholder="Senha"><br><br>
+        <input type="password" name="confirmarSenha" id="confirmarSenha" placeholder="Confirmar Senha"><br><br>
+        <p id="mensagemDeErro" style="color: rgba(255, 0, 0, 0.308); display: none;">As senhas não coincidem!</p>
+        <button id="cadastrar" onclick="cadastrar()">Cadastrar</button>
+        <script src="cadastro.js"></script>
+    </div>
+    
+
+</body>
+</html>
